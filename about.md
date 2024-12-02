@@ -3,15 +3,15 @@
 json, xml, なんかいい感じのやつとか
 
 ### コマンドというかモジュールというか
-say - 文字を出力
-input - 文字を入力 (フラグに格納)
-if - 分岐　はいいいえ (ユーザー選択)
-choice - アイテムの選択とかなんとか
-flag - フラグ　bool, string, int など
-item - 所持中のアイテムリスト　基本string
-roop - ループ　基本無限　フラグの設定で抜け出すことも可能
-start - 始まり　これを入れたところから動く
-end - 終わり　複数設定あり　終了設定ができる(true end, happy endなどなど)
+say - 文字を出力<br>
+input - 文字を入力 (フラグに格納)<br>
+if - 分岐　はいいいえ (ユーザー選択)<br>
+choice - アイテムの選択とかなんとか<br>
+flag - フラグ　bool, string, int など<br>
+item - 所持中のアイテムリスト　基本string<br>
+roop - ループ　基本無限　フラグの設定で抜け出すことも可能<br>
+start - 始まり　これを入れたところから動く<br>
+end - 終わり　複数設定あり　終了設定ができる(true end, happy endなどなど)<br>
 ### 言語はもちろん？
 **Go!**
 
@@ -25,7 +25,7 @@ end - 終わり　複数設定あり　終了設定ができる(true end, happy 
 ファイルからobjectへ
 
 - error checker
-エラーチェック
+エラーチェック<br>
 スタートがないとか、エンドがないとか使われてないflagがあるとかなんとか
 
 - header serch
