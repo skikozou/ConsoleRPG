@@ -16,20 +16,18 @@ end - 終わり　複数設定あり　終了設定ができる(true end, happy 
 **Go!**
 
 ### 構造〜
-1. file to object
-2. error checker
-3. header serch
-4. runner
+1. parser
+2. lexer
+3. runner
 
-- file to object
-ファイルからobjectへ
+- parser
+ファイル or テキストを分解
 
-- error checker
-エラーチェック<br>
+- lexer
+- オブジェクトを生成<br>
+startとかendを探してheader設定<br>
+エラーチェックも<br>
 スタートがないとか、エンドがないとか使われてないflagがあるとかなんとか
-
-- header serch
-startとかendを探してheader設定
 
 - runner
 headerから順に実行
