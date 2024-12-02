@@ -1,0 +1,43 @@
+{
+  "title": "タイトル",
+  "author": "作者",
+  "program": [
+    {
+      "module": "say",
+      "args": {
+        "text": "sample"
+      }
+    },
+    {
+      "module": "if",
+      "args": {
+        "yes": {
+          "module": "say",
+          "args": {
+            "text": "sample"
+          }
+        },
+        "no": {
+          "module": "call",
+          "args": {
+            "name": "func1"
+          }
+        }
+      }
+    },
+    {
+      "module": "func",
+      "args": {
+        "name": "func1",
+        "body": [
+          {
+            "module": "say",
+            "args": {
+              "text": "sample"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
