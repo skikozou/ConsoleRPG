@@ -28,14 +28,14 @@ call - 関数呼べる
 2. lexer
 3. runner
 
-- parser
+- parser<br>
 ファイル or テキストを分解
 
-- lexer
-- オブジェクトを生成<br>
+- lexer<br>
+オブジェクトを生成<br>
 startとかendを探してheader設定<br>
 エラーチェックも<br>
 スタートがないとか、エンドがないとか使われてないflagがあるとかなんとか
 
-- runner
+- runner<br>
 headerから順に実行
